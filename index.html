@@ -12,9 +12,10 @@
       <h1>Roman Numeral Converter!</h1>
       <form>
         <div class="form-group">
-        <input id="user-input" type="number" required placeholder="Enter a number...">
+        <label>Enter a number between 1 and 3999. Remember, there is no Roman Numeral for 0, and you can only count to 3999 following the rules of Roman Numerals!</label>
+        <input id="user-input" type="number" max="3999" min="1" required placeholder="Please enter a number...">
         </div>
-        <button type="submit" class="btn btn-info">Forum my numeral!</button>
+        <button type="submit" class="btn btn-info">"Forum" my numeral!</button>
       </form>
       <div id="result">
         <h4 id="numeral"></h4>
